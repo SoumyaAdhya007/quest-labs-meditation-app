@@ -17,23 +17,23 @@
 
 ## NPM Packages
 - ### Frontend
-```json
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.1",
-    "@mui/material": "^5.14.1",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.4.0",
-    "dotenv": "^16.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-loading-skeleton": "^3.3.1",
-    "react-scripts": "5.0.1",
-    "react-toastify": "^9.1.3",
-    "web-vitals": "^2.1.4"
-```
+  ```json
+      "@emotion/react": "^11.11.1",
+      "@emotion/styled": "^11.11.0",
+      "@mui/icons-material": "^5.14.1",
+      "@mui/material": "^5.14.1",
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.4.0",
+      "dotenv": "^16.3.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-loading-skeleton": "^3.3.1",
+      "react-scripts": "5.0.1",
+      "react-toastify": "^9.1.3",
+      "web-vitals": "^2.1.4"
+  ```
 - ### Backend 
   ```json
     "axios": "^1.4.0",
@@ -45,9 +45,9 @@
 
   ###  Run Locally Clone this Project
 
-```bash
-    step 1.  https://github.com/SoumyaAdhya007/quest-labs-meditation-app
-```
+  ```bash
+      step 1.  https://github.com/SoumyaAdhya007/quest-labs-meditation-app
+  ```
 - ### Frontend
   ``` bash
   - Step 2. Go to the root directory: cd client
