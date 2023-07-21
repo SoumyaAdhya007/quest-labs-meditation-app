@@ -72,7 +72,7 @@
   ```
   ## API Endpoints
 
-  ####  Genaarate Meditation.
+  ####  Generate Meditation.
   
 -
   ```javascript
