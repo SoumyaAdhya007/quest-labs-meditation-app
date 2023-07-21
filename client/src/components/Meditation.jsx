@@ -123,6 +123,34 @@ const Meditation = ({ answers, setReset }) => {
             <Skeleton wrapper={PlayButton} baseColor="#15998f" />
             <Skeleton wrapper={ReTryButton} baseColor="#66a2dd" />
           </>
+        ) : text === "Error in connection!" ? (
+          <>
+            <Typography>
+              We sincerely apologize for the inconvenience caused. We regret to
+              inform you that we are experiencing technical difficulties in
+              generating the AI Meditation at the moment. The issue is not on
+              your end, but with our AI meditation service(
+              <a
+                href="https://gpt-api.richexplorer.com/api/general"
+                target="_blank"
+                style={{ color: "red" }}
+              >
+                https://gpt-api.richexplorer.com/api/general
+              </a>
+              ), which is currently facing some problems.
+            </Typography>
+
+            <ReTryButton
+              onClick={() => {
+                setReset(true);
+                setIsPlayed(false);
+              }}
+              disabled={isPlay ? true : false}
+            >
+              <ReplayIcon />
+              Try Again
+            </ReTryButton>
+          </>
         ) : (
           <>
             <Text style={styles.preFormatted}>{text}</Text>
